@@ -6,7 +6,58 @@ body, html {
 }
 
 * {
-
     box-sizing:border-box;
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://i.pinimg.com/originals/6f/f4/ac/6ff4acfc7814cfa4740d9ddf1656fb73.jpg");
+    background-repeat: round;
+    
+}
+main {
+    width: 900px;
+    height: 600px;
+    border: dashed black 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(240, 255, 255, 0.473);
+    
+}
+
+section {
+    padding: 25px;
+    font-family: cursive;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgba(3, 44, 44, 0.877)
+}
+
+input {
+    padding: 5px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+button {
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: ridge blue 2px;
+    text-align: center;
+    background-color: honeydew;
+    font-weight: bold;
+}
